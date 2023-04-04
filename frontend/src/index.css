@@ -1,0 +1,168 @@
+main {
+  overflow-x: hidden;
+  background-color: #f2f6f9;
+  max-height: 100vh;
+}
+
+.content {
+  max-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vcenter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #055646;
+  color: #fff;
+}
+
+.sidebar_logo {
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: solid;
+  border-color: #e2e2e23d;
+  border-width: 1px;
+}
+
+.sidebar_logo_txt {
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+}
+
+.sidebar_item {
+  margin: 0.1rem;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.sidebar_item:hover {
+  background-color: #00000088;
+  border-left: solid;
+  cursor: pointer;
+}
+
+.sidebar_active {
+  background-color: #000000c7;
+  border-left: solid;
+}
+
+.navbar {
+  background: #f4f4f4;
+  min-height: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  font-size: 1.4rem;
+  color: #595f6b;
+  padding-left: 1rem !important;
+}
+
+.dashboard {
+  padding-top: 2vh;
+}
+
+.dashboard_row {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard_heading {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #595f6b;
+}
+
+.courses_card {
+  margin: 1rem 0rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.courses_card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.card_btn {
+  border: solid;
+  border-width: 1px;
+  color: #055646;
+  background-color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card_btn:hover {
+  color: #fff;
+  background-color: #055646;
+  border: none;
+}
+
+#file {
+  width: 75%;
+}
+
+.card_header {
+  font-weight: 600;
+}
+
+.card_green {
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  background-color: #05564617;
+  color: #055646;
+  border-radius: 5px;
+}
+
+.course_main {
+  background-color: #fff;
+}
+
+.course_header {
+  font-size: 2rem;
+}
+
+.course_sub {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.course_sub2 {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.course_subpart {
+  border-top: solid 1px;
+  border-color: #0000001f;
+}
+
+.course_subpart:hover {
+  background-color: #055646;
+  color: #fff;
+  cursor: pointer;
+}
+
+.course_sub3 {
+  font-weight: 500;
+  font-size: 1rem;
+}
