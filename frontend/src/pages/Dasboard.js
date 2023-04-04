@@ -11,6 +11,8 @@ const Dashboard = () => {
           <CoursesCard />
           <CoursesCard />
           <CoursesCard />
+          <CoursesCard />
+          <CoursesCard />
         </Col>
       </Row>
     </div>
