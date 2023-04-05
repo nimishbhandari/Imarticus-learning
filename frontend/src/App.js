@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dasboard";
 import Explore from "./pages/Explore";
 import Groups from "./pages/Groups";
 import Course from "./pages/Course";
+import Video from "./pages/Video";
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
               <Route path="/" element={<Dashboard />} />
               <Route path="/explore" element={<Explore />} />
               <Route path="/groups" element={<Groups />} />
-              <Route path="/course" element={<Course />} />
+              <Route path="/course/:id" element={<Course />} />
+              <Route path="/video" element={<Video />} />
             </Routes>
           </Col>
         </Row>

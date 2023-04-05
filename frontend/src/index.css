@@ -130,7 +130,7 @@ main {
 
 .card_green {
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0.5rem;
   background-color: #05564617;
   color: #055646;
@@ -167,6 +167,14 @@ main {
 }
 
 .course_sub3 {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1rem;
+  line-height: 1.4rem;
+  padding: 0.6rem;
+}
+
+.course_sub3:hover {
+  color: #055646;
+  cursor: pointer;
+  font-weight: 600;
 }
