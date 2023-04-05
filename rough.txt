@@ -17,3 +17,82 @@
         }
     ]
 }
+
+
+
+//
+
+{
+    "name": "Sample Introduction course 1",
+    "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Advantages_and_Disadvantages_of_artificial_intelligence.jpg",
+    "batch": "Batch: Default_Batch_1625571974257_Introduction to Machine Learning",
+    "status": 0,
+    "topic": [
+        {
+            "subName": "Sample Introduction Subheading 1",
+            "lectures": [
+                {
+                    "lectureName": "This is lecture 1"
+                },
+                {
+                    "lectureName": "This is lecture 2"
+                },
+                 {
+                    "lectureName": "This is lecture 3"
+                }
+            ]
+        },
+        {
+            "subName": "Sample Introduction Subheading 2",
+            "lectures": [
+                {
+                    "lectureName": "This is lecture 1"
+                }
+            ]
+        },
+        {
+            "subName": "Sample Introduction Subheading 3",
+            "lectures": [
+                {
+                    "lectureName": "This is lecture 1"
+                },
+                {
+                    "lectureName": "This is lecture 2"
+                },
+                 {
+                    "lectureName": "This is lecture 3"
+                }
+            ]
+        },
+        {
+            "subName": "Sample Introduction Subheading 4",
+            "lectures": [
+                {
+                    "lectureName": "This is lecture 1"
+                }
+               
+            ]
+        },
+        {
+            "subName": "Sample Introduction Subheading 5",
+            "lectures": [
+                {
+                    "lectureName": "This is lecture 1"
+                },
+                {
+                    "lectureName": "This is lecture 2"
+                },
+                 {
+                    "lectureName": "This is lecture 3"
+                },
+                 {
+                    "lectureName": "This is lecture 4"
+                },
+                 {
+                    "lectureName": "This is lecture 5"
+                }
+
+            ]
+        }
+    ]
+}

@@ -22,4 +22,12 @@ const getCourses = async (req, res) => {
   res.json(courses);
 };
 
-export { addCourse, getCourses };
+//@desc     Get course by id
+//@routes   GET /api/course/:id
+//@access   Public
+const getCourseById = async (req, res) => {
+  const courses = await Course.findById(req.params.id);
+  res.json(courses);
+};
+
+export { addCourse, getCourses, getCourseById };
