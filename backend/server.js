@@ -1,12 +1,14 @@
 import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./config/DB.js";
+import courseRoute from "./routes/courseRoute.js";
 
 dotenv.config();
-
 connectDB();
-
 const app = express();
+app.use(express.json());
+
+app.use("/api/course", courseRoute);
 
 const PORT = process.env.PORT || 5000;
 const MODE = process.env.MODE;

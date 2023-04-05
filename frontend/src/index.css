@@ -1,3 +1,7 @@
+* {
+  transition: 0.1s;
+}
+
 main {
   overflow-x: hidden;
   background-color: #f2f6f9;

@@ -1,0 +1,19 @@
+{
+    "name": "nimish",
+    "img": "img",
+    "batch": "batch",
+    "status": 0,
+    "topic": [
+        {
+            "subName": "Intro to abc",
+            "lectures": [
+                {
+                    "lectureName": "This is lecture 1"
+                },
+                {
+                    "lectureName": "This is lecture 2"
+                }
+            ]
+        }
+    ]
+}
